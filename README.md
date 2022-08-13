@@ -2,12 +2,12 @@
     <a href="https://github.com/StianWiu/Twitch-Recorder/actions/workflows/codeql-analysis.yml">
         <img alt="Github test" src="https://github.com/StianWiu/Twitch-Recorder/actions/workflows/codeql-analysis.yml/badge.svg">
     </a>
-    <a href='https://www.npmjs.com/package/Twitch-Recorder'>
-        <img src='https://img.shields.io/npm/v/Twitch-Recorder.svg' alt='Latest npm version'>
-        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stianwiu/Twitch-Recorder">
-        <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/stianwiu/Twitch-Recorder">
-        <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/stianwiu/Twitch-Recorder">
-        <img src='https://img.shields.io/npm/dm/Twitch-Recorder.svg' alt='Dependents'>
+    <a href='https://www.npmjs.com/package/twitch-recorder'>
+        <img src='https://img.shields.io/npm/v/twitch-recorder.svg' alt='Latest npm version'>
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stianwiu/twitch-recorder">
+        <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/stianwiu/twitch-recorder">
+        <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/stianwiu/twitch-recorder">
+        <img src='https://img.shields.io/npm/dm/twitch-recorder.svg' alt='Dependents'>
     </a>
 </p>
 
