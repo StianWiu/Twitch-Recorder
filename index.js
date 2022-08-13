@@ -199,7 +199,7 @@ const start = async () => {
     streamDetails = await getStreamDetails();
     // Create filename.
     const filename = `${streamDetails.user_name}_${Date.now()}.mp4`;
-    const stream = m3u8stream(m3u8Link).pipe(fs.createWriteStream(`${config.directory}${filename}`));
+    const stream = m3u8stream(m3u8Link).pipe(fs.createWriteStream(`${config.directory}/${filename}`));
     Logger.log("Started recording")
     let record = true
     stream.on('end', () => {
@@ -254,20 +254,20 @@ const start = async () => {
 
 (async () => {
   // Check if program should loop forever.
-  let loop = false
-  if (config.loop) {
-    loop = true
-  }
-  if (config.directory === undefined) {
-    config.directory = "./videos/"
+  if (config.directory == undefined) {
+    config.directory = "./videos"
   } else {
+    // Make sure directory does not end with a slash.
+    if (config.directory.endsWith("/")) {
+      config.directory = config.directory.slice(0, -1);
+    }
     Logger.info(`Using ${config.directory} as directory`);
   }
   await checkIfVideoFolderExists();
   if (!config.loop) {
     await start();
   } else {
-    // If loop is true, start the loop.
+    let loop = true
     let loopDuration = 10000
     if (config.category) {
       loopDuration = 120000
