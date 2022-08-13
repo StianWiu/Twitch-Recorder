@@ -1,0 +1,33 @@
+{
+  "name": "twitch-recorder",
+  "version": "1.0.0",
+  "description": "A terminal based tool for recording live twitch streams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StianWiu/Twitch-Recorder.git"
+  },
+  "keywords": [
+    "Twitch"
+  ],
+  "author": "StianWiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StianWiu/Twitch-Recorder/issues"
+  },
+  "homepage": "https://github.com/StianWiu/Twitch-Recorder#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.7",
+    "axios": "^0.27.2",
+    "bug-killer": "^4.4.4",
+    "commander": "^9.4.0",
+    "enquirer": "^2.3.6",
+    "fs": "^0.0.1-security",
+    "m3u8stream": "^0.8.6",
+    "timer-node": "^5.0.6",
+    "twitch-m3u8": "^1.1.5"
+  }
+}
