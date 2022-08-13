@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 console.clear();
 
 // If you decide to make your own API by cloning https://github.com/StianWiu/TwitchAPI you can use that instead to bypass any rate limits.
