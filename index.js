@@ -198,7 +198,6 @@ const start = async () => {
     streamDetails = await getStreamDetails();
     // Create filename.
     const filename = `${streamDetails.user_name}_${Date.now()}.mp4`;
-    console.log(filename)
     const stream = m3u8stream(m3u8Link).pipe(fs.createWriteStream(`${config.directory}${filename}`));
     Logger.log("Started recording")
     let record = true
