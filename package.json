@@ -22,7 +22,7 @@
   "homepage": "https://github.com/StianWiu/Twitch-Recorder#readme",
   "dependencies": {
     "asciiart-logo": "^0.2.7",
-    "axios": "^0.27.2",
+    "axios": "^1.1.2",
     "bug-killer": "^4.4.4",
     "commander": "^9.4.0",
     "enquirer": "^2.3.6",
